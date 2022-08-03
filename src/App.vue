@@ -1,10 +1,12 @@
 <template>
   <div class="app">
-    <div>手動搭建webpack環境使用Vue3</div>
+    <Home/>
   </div>
 </template>
 <script>
+import Home from './views/Home.vue'
 export default {
+  components: {Home},
   setup() {}
 }
 </script>

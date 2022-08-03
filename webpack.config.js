@@ -3,6 +3,7 @@ const { VueLoaderPlugin } = require('vue-loader') // vue loader須額外引入�
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  mode:"development",
   entry: './src/main.js',
   output: {
     filename: 'main.js',
