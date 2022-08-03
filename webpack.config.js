@@ -23,6 +23,16 @@ module.exports = {
       {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.(jpe?g|png|gif|svg)$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            outputPath: 'images',
+            name: '[name]-[hash:8].[ext]'
+          }
+        }
       }
     ]
   },
@@ -34,7 +44,8 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'dist'),
     },
-    port: 8080,
+    // static: false,
+    port: 8888,
     open: true
   }
 }
