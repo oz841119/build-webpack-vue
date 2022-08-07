@@ -120,16 +120,6 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
-/***/ "./src/assets/images/頭上裝攝影機.jpg":
-/*!**************************************!*\
-  !*** ./src/assets/images/頭上裝攝影機.jpg ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/頭上裝攝影機-6f8f4529.jpg\");\n\n//# sourceURL=webpack://build-webpack-nuxt/./src/assets/images/%E9%A0%AD%E4%B8%8A%E8%A3%9D%E6%94%9D%E5%BD%B1%E6%A9%9F.jpg?");
-
-/***/ }),
-
 /***/ "./src/assets/style/something.scss":
 /*!*****************************************!*\
   !*** ./src/assets/style/something.scss ***!
@@ -266,7 +256,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _assets_script_sum_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/script/sum.js */ \"./src/assets/script/sum.js\");\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n  setup() {\n    console.log(_assets_script_sum_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n  }\n});\n\n\n//# sourceURL=webpack://build-webpack-nuxt/./src/views/Home.vue?./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B5%5D.use%5B0%5D");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _assets_script_sum_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/script/sum.js */ \"./src/assets/script/sum.js\");\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({\n  setup() {\n    const num = (0,_assets_script_sum_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(10, 20, 30)\n    return {num}\n  }\n});\n\n\n//# sourceURL=webpack://build-webpack-nuxt/./src/views/Home.vue?./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B5%5D.use%5B0%5D");
 
 /***/ }),
 
@@ -336,7 +326,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* binding */ render)\n/* harmony export */ });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n/* harmony import */ var _assets_images_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/images/頭上裝攝影機.jpg */ \"./src/assets/images/頭上裝攝影機.jpg\");\n\n\n\n\nconst _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)(\"h1\", null, \"搭建Webpack環境使用Vue3\", -1 /* HOISTED */)\nconst _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)(\"img\", {\n  src: _assets_images_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  alt: \"\"\n}, null, -1 /* HOISTED */)\n\nfunction render(_ctx, _cache, $props, $setup, $data, $options) {\n  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [\n    _hoisted_1,\n    _hoisted_2\n  ], 64 /* STABLE_FRAGMENT */))\n}\n\n//# sourceURL=webpack://build-webpack-nuxt/./src/views/Home.vue?./node_modules/vue-loader/dist/templateLoader.js??ruleSet%5B1%5D.rules%5B1%5D!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B5%5D.use%5B0%5D");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"render\": () => (/* binding */ render)\n/* harmony export */ });\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n/* harmony import */ var _assets_images_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/images/頭上裝攝影機.jpg */ \"./src/assets/images/頭上裝攝影機.jpg\");\n\n\n\n\nconst _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)(\"h1\", null, \"搭建Webpack環境使用Vue3\", -1 /* HOISTED */)\nconst _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)(\"img\", {\n  src: _assets_images_jpg__WEBPACK_IMPORTED_MODULE_1__,\n  alt: \"\"\n}, null, -1 /* HOISTED */)\n\nfunction render(_ctx, _cache, $props, $setup, $data, $options) {\n  return ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [\n    _hoisted_1,\n    _hoisted_2,\n    (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(\" \" + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.num), 1 /* TEXT */)\n  ], 64 /* STABLE_FRAGMENT */))\n}\n\n//# sourceURL=webpack://build-webpack-nuxt/./src/views/Home.vue?./node_modules/vue-loader/dist/templateLoader.js??ruleSet%5B1%5D.rules%5B1%5D!./node_modules/vue-loader/dist/index.js??ruleSet%5B1%5D.rules%5B5%5D.use%5B0%5D");
 
 /***/ }),
 
@@ -356,7 +346,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst sum = (...num) => {\n  return num.reduce()\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sum);\n\n//# sourceURL=webpack://build-webpack-nuxt/./src/assets/script/sum.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nvar sum = (...num) => {\n  return num.reduce((curr, next) => curr + next)\n}\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (sum);\n\n//# sourceURL=webpack://build-webpack-nuxt/./src/assets/script/sum.js?");
 
 /***/ }),
 
@@ -367,6 +357,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.runtime.esm-bundler.js\");\n/* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.vue */ \"./src/App.vue\");\n\n\n\n(0,vue__WEBPACK_IMPORTED_MODULE_0__.createApp)(_App_vue__WEBPACK_IMPORTED_MODULE_1__[\"default\"]).mount('#app')\n\n//# sourceURL=webpack://build-webpack-nuxt/./src/main.js?");
+
+/***/ }),
+
+/***/ "./src/assets/images/頭上裝攝影機.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/頭上裝攝影機.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6f8f45296bb10cf7256e.jpg\";\n\n//# sourceURL=webpack://build-webpack-nuxt/./src/assets/images/%E9%A0%AD%E4%B8%8A%E8%A3%9D%E6%94%9D%E5%BD%B1%E6%A9%9F.jpg?");
 
 /***/ })
 
